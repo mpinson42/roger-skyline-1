@@ -1,0 +1,1 @@
+echo "00 00 * * * if [ ! -f "/script" ] ; then ls -l /etc/crontab > /script ; fi ; var=`ls -l /etc/crontab | sed 's/ //g'` ; var2=`cat /script | sed 's/ //g'` ; if [ $var != $var2 ] ; then mail -s "modif crontab" root@debian ; ls -l /etc/crontab > /script ; fi ;" >> /etc/crontab
