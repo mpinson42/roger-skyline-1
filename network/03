@@ -1,3 +1,1 @@
-ifconfig -a | grep ether | sed -n 7p | cut -d' ' -f2
-||
 ifconfig en1 ether

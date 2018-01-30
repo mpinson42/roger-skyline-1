@@ -1,1 +1,2 @@
-les ip sont similaire au 05 sauf le Server
+Si on compare les resultats obtenus dans les deux commandes, les addresses obtenues sont differentes, mais si on regarde la liste obtenue au sein d'une seule commande, les adresses sont similaires (seul le 
+dernier nombre change)
