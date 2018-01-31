@@ -1,1 +1,1 @@
-ls -Sl "path"
+ls -Sl $1
